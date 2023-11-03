@@ -35,8 +35,6 @@ while True:
             )
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 200), 4)
 
-            # Check if at least 10 seconds have passed since the last data addition
-
         else:
             cv2.putText(
                 frame, name, (x1, y1 - 10), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 200, 0), 2
